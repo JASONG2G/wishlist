@@ -4,11 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/utilities.css" />
     <title>My WishList</title>
   </head>
   <body>
-    <header class="container"></header>
-    <section class="container"></section>
+    <header>
+      <h1>Vacation Destinations WishList</h1>
+      <p>
+        Found exciting places to visition on your next vacation? Use the form
+        below to add them to your wishlist
+      </p>
+    </header>
+    <section class="main-container container grid">
+        <div class="left box">
+            <div>
+                <label for="destination">Destinations</label>
+                <input type="text" placeholder="Enter the destination" name="destination">
+            </div>
+            <div>
+                <label for="location">Location</label>
+                <input type="text" placeholder="where is it located?" name="destination">
+            </div>
+            <div>
+                <label for="photo">Photo</label>
+                <input type="text" placeholder="Enter image url" name="destination">
+            </div>
+            <div>
+                <label for="description">Description</label>
+                <textarea type="text"  placeholder="Where is it located?"></textarea>
+            </div>
+            <button type="submit" class="btn">Add to List</button>
+            
+        </div>
+        <div class="right box">
+            <p>Enter destination details</p>
+        </div>
+    </section>
     <footer class="container"></footer>
 
     <!-- javascript -->
