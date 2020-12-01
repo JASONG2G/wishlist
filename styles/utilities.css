@@ -38,7 +38,7 @@ textarea {
 .box {
   border: 2px #c40e2e solid;
   text-align: center;
-  height: 500px;
+  height: 100%;
   width: 100%;
   padding: 1.5rem 2rem;
   box-shadow: 0 3px 10px rgba(0.2, 0.2, 0.2, 0.2);
@@ -69,6 +69,7 @@ textarea {
 .right {
   grid-area: right;
   justify-content: center;
+  display: inline;
 }
 
 /* button styles */
@@ -97,4 +98,27 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.card {
+  border: 2px #c40e2e solid;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 3px 10px rgba(0.2, 0.2, 0.2, 0.2);
+  color: black;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-body {
+
 }

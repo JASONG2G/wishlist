@@ -18,26 +18,30 @@
     <section class="main-container container grid">
         <div class="left box">
             <div>
+              <form id="form">
                 <label for="destination">Destinations</label>
-                <input type="text" placeholder="Enter the destination" name="destination">
+                <input type="text" placeholder="Enter the destination" name="destination" id="name">
             </div>
             <div>
                 <label for="location">Location</label>
-                <input type="text" placeholder="where is it located?" name="destination">
+                <input type="text" placeholder="where is it located?" name="destination" id="location">
             </div>
             <div>
                 <label for="photo">Photo</label>
-                <input type="text" placeholder="Enter image url" name="destination">
+                <input type="url" placeholder="Enter image url" name="destination" id="photo">
             </div>
             <div>
                 <label for="description">Description</label>
-                <textarea type="text"  placeholder="Where is it located?"></textarea>
+                <textarea type="text"  placeholder="Where is it located?" id="description"></textarea>
             </div>
             <button type="submit" class="btn">Add to List</button>
-            
+          </form>
         </div>
         <div class="right box">
             <p>Enter destination details</p>
+            <div id="board">
+
+            </div>
         </div>
     </section>
     <footer class="container"></footer>
